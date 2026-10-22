@@ -1,4 +1,5 @@
 ﻿using System.Runtime.CompilerServices;
+using Microsoft.EntityFrameworkCore;
 using ToDo.Infrastructur.Presistence.Entities;
 namespace ToDo.API
 {
@@ -8,7 +9,13 @@ namespace ToDo.API
                                                              IConfiguration configuration) {
 
 
-            var ConnectionString = configuration.GetConnectionString("ConnectionStrings");
+            var ConnectionString = configuration.GetConnectionString("DefaultConnection");
+
+
+            services.AddDbContext<ToDoAppDbContext>(options =>
+            options.UseSqlServer(ConnectionString)
+            );
+
             return services;
         }
 

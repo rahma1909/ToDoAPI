@@ -15,6 +15,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PresentationLayer", "Presen
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDo.Infrastructur", "..\ToDo.Infrastructur\ToDo.Infrastructur.csproj", "{B88CD59D-1BB6-42E5-A683-C9E622F5644E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDo.Application", "..\ToDo.Application\ToDo.Application.csproj", "{889AF7CB-68D2-45BE-A595-D8E34A523D42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDo.Domain", "..\ToDo.Domain\ToDo.Domain.csproj", "{8CF8E266-448D-4BF0-B302-E1957F4574BD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,11 +33,21 @@ Global
 		{B88CD59D-1BB6-42E5-A683-C9E622F5644E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B88CD59D-1BB6-42E5-A683-C9E622F5644E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B88CD59D-1BB6-42E5-A683-C9E622F5644E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{889AF7CB-68D2-45BE-A595-D8E34A523D42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{889AF7CB-68D2-45BE-A595-D8E34A523D42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{889AF7CB-68D2-45BE-A595-D8E34A523D42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{889AF7CB-68D2-45BE-A595-D8E34A523D42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CF8E266-448D-4BF0-B302-E1957F4574BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CF8E266-448D-4BF0-B302-E1957F4574BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CF8E266-448D-4BF0-B302-E1957F4574BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CF8E266-448D-4BF0-B302-E1957F4574BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{B88CD59D-1BB6-42E5-A683-C9E622F5644E} = {54431133-5A97-444D-AFAC-6D96C765ECFF}
+		{889AF7CB-68D2-45BE-A595-D8E34A523D42} = {2FC4071B-8F87-4731-AD3D-B0B1760A460B}
+		{8CF8E266-448D-4BF0-B302-E1957F4574BD} = {4A11B9E9-B46C-4023-BE69-8BD22BFF153E}
 	EndGlobalSection
 EndGlobal
